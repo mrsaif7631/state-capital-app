@@ -1,0 +1,27 @@
+body {
+
+}
+.container {
+    padding: 20px;
+    background-image: linear-gradient(yellow,red);
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    margin-left: 450px;
+    border-radius: 20px;
+    
+
+}
+h3 {
+    margin-top: 2px;
+    text-align: center;
+    color:white;
+    font-size: x-large;
+    text-shadow:2px 2px 2px red;
+}
+input {
+    margin-left: 110px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
