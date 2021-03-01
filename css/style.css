@@ -6,8 +6,8 @@ body {
     background-image: linear-gradient(yellow,red);
     height: 400px;
     width: 400px;
-    position: fixed;
-    margin-left: 450px;
+    position:static;
+    margin-left: 32.5%;
     border-radius: 20px;
     
 
@@ -24,4 +24,7 @@ input {
     margin-bottom: 20px;
     border-radius: 5px;
     
+}
+.output {
+    margin-left: 27.5%;
 }
