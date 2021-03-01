@@ -21,8 +21,9 @@ matchList.innerHTML='';
 const outputHtml = matches => {
     if(matches.length >0){
         const html=matches.map(match => `
-        <div class="output">${match.name}(${match.abbr}) <span class="ch-color">${match.capital}</span></div>`).join('');
+        <div class="output">${match.name}(${match.abbr}) ${match.capital}</div>`).join('');
         matchList.innerHTML=html;
     }
 };
 find.addEventListener("input", () => searchStates(find.value));
+
