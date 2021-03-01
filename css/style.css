@@ -3,11 +3,12 @@ body {
 }
 .container {
     padding: 20px;
-    background-image: linear-gradient(yellow,red);
+    background-image: linear-gradient(green,red,yellow);
     height: 400px;
     width: 400px;
     position:static;
-    margin-left: 32.5%;
+    margin-left:auto;
+    margin-right: auto;
     border-radius: 20px;
     
 
@@ -17,7 +18,7 @@ h3 {
     text-align: center;
     color:white;
     font-size: x-large;
-    text-shadow:2px 2px 2px red;
+    text-shadow:2px 2px 2px yellow;
 }
 input {
     margin-left: 110px;
@@ -26,5 +27,6 @@ input {
     
 }
 .output {
-    margin-left: 27.5%;
+    margin-left:  27.5%;
+
 }
