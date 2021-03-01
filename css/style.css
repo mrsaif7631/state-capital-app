@@ -17,9 +17,9 @@ padding: 2%;
 h3 {
     margin-top: 2px;
     text-align: center;
-    color:white;
+    color:cornsilk;
     font-size: x-large;
-    text-shadow:2px 2px 2px yellow;
+    text-shadow:2px 2px 5px yellow;
 }
 input {
     margin-left: 110px;
@@ -29,5 +29,9 @@ input {
 }
 .output {
     margin-left:  27.5%;
+    color: cornsilk;
 
+}
+.ch-color {
+    color: yellow;
 }
